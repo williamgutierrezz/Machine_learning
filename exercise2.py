@@ -16,8 +16,8 @@ import numpy as np
 class Calcula:
 
     def __init__(self): # Constructor
-        self.R = 2 # 7 referencias 
-        self.D = 3 # 5 dias de una semana 
+        self.R = 7 # 7 referencias 
+        self.D = 5 # 5 dias de una semana 
         #import numpy as np
 
         self.canVentas,self.valReference,self.detalle = [], [], []
